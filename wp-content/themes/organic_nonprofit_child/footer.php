@@ -1,0 +1,102 @@
+<div class="clear"></div>
+
+<!-- END #wrap -->
+</div>
+
+<!-- BEGIN #footer-widgets -->
+<div id="footer-widgets">
+
+	<div class="row">
+	
+	    <div class="two columns"> 
+	        <div class="footer-widget">
+	        	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-one') ) : ?>
+	            <?php endif; ?>
+	        </div> 
+	    </div>
+	    
+	    <div class="two columns">
+	        <div class="footer-widget">
+	        	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-two') ) : ?>
+	            <?php endif; ?>
+	        </div>
+	    </div>
+	    
+	    <div class="two columns">
+	        <div class="footer-widget">
+	        	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-three') ) : ?>
+	            <?php endif; ?>
+	        </div>
+	    </div>
+	    
+	    <div class="two columns">
+	        <div class="footer-widget">
+	        	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-four') ) : ?>
+	            <?php endif; ?>
+	        </div>
+	    </div>
+	    
+	    <div class="four columns">
+	        <div class="footer-widget">
+	        	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-five') ) : ?>
+	            <?php endif; ?>
+	        </div>
+	    </div>
+	
+	</div>
+
+<!-- END #footer-widgets -->
+</div>
+
+<!-- BEGIN #footer -->
+<div id="footer">
+
+	<div class="row">
+    
+    	<div class="twelve columns">
+	
+            <div class="footer left">
+                <p><?php _e("Copyright", 'organicthemes'); ?> &copy; <?php echo date(__("Y", 'organicthemes')); ?> &middot; <?php _e("All Rights Reserved", 'organicthemes'); ?> &middot; <?php bloginfo('name'); ?></p>
+                <p><a href="http://www.edgemm.com/" target="_blank">Website design by Edge Multimedia</a></p>
+            </div>
+        
+        </div>
+	
+	</div>
+
+<!-- END #footer -->
+</div>
+
+<?php do_action('wp_footer'); ?>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=246727095428680";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 986519661;
+var google_conversion_label = "HqYnCKup3Q0Q7bC01gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/986519661/?value=0&amp;label=HqYnCKup3Q0Q7bC01gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+</body>
+</html>

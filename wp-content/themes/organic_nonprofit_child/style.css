@@ -1,0 +1,390 @@
+/*
+Theme Name:     Organic Nonprofit Child 1.0
+Theme URI:     	http://nwrailroadinstitute.com/
+Description:    Child theme for Organic Nonprofit 
+Author:         Scott Chadwick
+Author URI:     http://edgemm.com
+Template:       organic_nonprofit
+Version:        1.0
+*/
+
+@import url("../organic_nonprofit/style.css");
+
+.container form input[type='url'], .container form input[type='tel'], .container form input[type='email'], .container form input[type='text'], .container form input[type='password'], .container form input[type='number'], .container form textarea, .container form select {
+	display: inline;
+	background: #F9F9F9;
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.4;
+	margin: 0px;
+	padding: 8px !important;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .1);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .1);
+	width: 150px;
+}
+
+body.custom-background {
+	background-attachment: scroll !important;
+}
+
+body {
+	font-size: 14px;
+}
+
+#slideshow {
+	margin: 0 auto;
+}
+
+#slideshow .information {
+	color: #E6E6E6;
+}
+
+#slideshow .information .headline a {
+	color: #e4e5e6;
+	text-shadow: 1px 1px 2px #000;
+	font-weight: bold;
+}
+
+h1, h2 {
+	color: #075884;
+	text-shadow: 1px 1px 2px #999;
+	font-weight: bold;
+}
+
+h3 {
+	text-shadow: 1px 1px 1px #fff;
+	font-weight: bold;
+}
+
+h5 {
+	color: #777;
+}
+
+blockquote {
+	font-style: italic;
+	margin: 20px;
+	padding: 0px 15px 0px 15px;
+}
+
+.organic-btn.white-btn {
+	background-color: #ffffff !important;
+	}
+	
+#navigation {
+	float: left;
+	background: #99CC00;
+	color: #666666;
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 80px;
+	font-size: 0.9em;
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px 0px 0px -10px;
+	padding: 0px 10px;
+	z-index: 9999;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.30)));
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.30));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#4D000000);
+	border-radius: 0px 0px 2px 2px;
+	-moz-border-radius: 0px 0px 2px 2px;
+	-khtml-border-radius: 0px 0px 2px 2px;
+	-webkit-border-radius: 0px 0px 2px 2px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, .08);
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .08);
+	}
+	
+.organic-btn  {
+display: inline-block;
+margin: 12px 0px;
+padding: 0px;
+background-color: #444444;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: none;
+box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .6);
+-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .6);
+-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .6);
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)),to(rgba(0, 0, 0, 0.10)));
+background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.10));
+background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.10));
+background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.10));
+background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.10));
+background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.10));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#00000000', EndColorStr='#1A000000') !important;
+}
+
+#page-spacer {
+	height: 73px;
+	width: 100%;	
+}
+
+#apply-form {
+	margin-top: 0px;
+	width: 97%;
+	border: thin solid #ccc;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	padding: 7px;
+	margin-right: none;
+	margin-left: none;
+	background-color: #FBFBFB;
+	display: table;
+}
+user agent stylesheetdiv {
+display: block;
+}
+
+#apply-form table td {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;	
+}
+
+#apply-form table {
+	background-color: #FBFBFB;
+}
+
+.widget h3 {
+	color: #00602C;	
+	font-size: 1.5em;
+}
+
+.widget p {
+	line-height: 20px;
+}
+
+.form1 img {
+	overflow: hidden;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	height: auto;
+	width: 274px;
+	max-width: 97% !important;
+	max-height: 100% !important;
+	margin: 2px;
+	padding: 2px;
+	border: thin solid #CCC;
+}
+
+.header-search {
+float: right;
+display: inline-block;
+width: 200%;
+top: 56px;
+position: relative;
+}
+
+#phone {
+	float: right;
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+	color: #075884;
+	font-size: 14px;
+	font-style: italic;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #fff;
+	font-weight: bold;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: 10px;
+}
+
+#phone a {
+	color: #023956;	
+}
+
+#homeclip {
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	margin: 24px auto;
+	position: relative;
+}
+
+.postapplynowhome {
+	width: 48%;
+	margin: 31px 0;
+	padding: 18px 16px;
+	float: left;
+	border: thin solid #cccdce;
+	border-right: none;
+	border-left: none;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-shadow: 0 15px 15px -20px #7e7e7e, 0 -15px 15px -20px #7e7e7e;
+	-webkit-box-shadow: 0 15px 15px -20px #7e7e7e, 0 -15px 15px -20px #7e7e7e;
+	box-shadow: 0 15px 15px -20px #7e7e7e, 0 -15px 15px -20px #7e7e7e;
+	text-align: center;
+	color: #ccc;
+}
+
+.postapplynowhome p {
+	font-style: italic;
+	color: #757575;
+	font-size: 18px;
+	margin-top: 0px;
+	text-shadow: 1px 1px 1px #fff;
+
+}
+
+.postapplynowhome h1 {
+	font-size: 27px;
+	font-weight: bold;
+	padding: 0px;
+	text-shadow: 1px 1px 1px #fff;
+	color: #023956;
+	margin-top: -8px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.postpromovideo {
+	width: 48%;
+	float: right;
+}
+
+#postclip {
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.postapplynow {
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: 16px;
+	-moz-box-shadow: 0 0 3px -10px #888;
+	-webkit-box-shadow: 0 0 30px -10px #888;
+	box-shadow: 0 0 30px -10px #888;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #EEEEEE;
+	border-right-color: #EEEEEE;
+	border-bottom-color: #EEEEEE;
+	border-left-color: #EEEEEE;
+	overflow: hidden;
+	margin-bottom: 16px;
+	width: auto;
+	padding: 16px;
+}
+
+.postapplynow h2 {
+font-size: 13px;
+margin: 0px;
+padding: 0px;
+line-height: 20px;
+}
+
+.postapplynow a, .postapplynowhome a, .container form input[type='submit'] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #A3DD64;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #A3DD64;
+	box-shadow: inset 0px 1px 0px 0px #A3DD64;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #009344), color-stop(1, #006930) );
+	background: -moz-linear-gradient( center top, #009344 5%, #006930 100% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009344', endColorstr='#006930');
+	background-color: #009344;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #83c41a;
+	display: inline-block;
+	color: #ffffff !important;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #444;
+	padding-top: 6px;
+	padding-right: 28px;
+	padding-bottom: 6px;
+	padding-left: 28px;
+	margin-top: 12px;
+}
+.postapplynow a:hover, .postapplynowhome a:hover, .container form input[type='submit']:hover {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006930), color-stop(1, #009344) );
+	background: -moz-linear-gradient( center top, #006930 5%, #009344 100% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006930', endColorstr='#009344');
+	background-color: #006930;
+	color: #e4e5e6 !important;
+}
+
+/* --- jQuery UI Dialog - gfh 4/25/14 --- */
+
+.ui-widget-overlay {
+	background-image: none;
+}
+
+.ui-dialog-titlebar, .ui-dialog-buttonset > .ui-button:first-child {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #009344), color-stop(1, #006930) );
+	background: -moz-linear-gradient( center top, #009344 5%, #006930 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009344', endColorstr='#006930');
+	background-color: #009344;
+	color: #fff;
+}
+.ui-dialog-buttonset > .ui-button:first-child {
+	-moz-box-shadow: inset 0px 1px 0px 0px #a3dd64;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #a3dd64;
+	box-shadow: inset 0px 1px 0px 0px #a3dd64;
+}
+.ui-dialog-buttonset > .ui-state-hover:first-child {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006930), color-stop(1, #009344) );
+	background: -moz-linear-gradient( center top, #006930 5%, #009344 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006930', endColorstr='#009344');
+	background-color: #006930;
+	color: #e4e5e6 !important
+}
+.ui-dialog-titlebar-close {
+	display: none !important;
+}
+
+
+@media screen and (max-width: 767px){
+#page-spacer {
+	
+	display: none;
+}
+
+.container form input[type='url'], .container form input[type='tel'], .container form input[type='email'], .container form input[type='text'], .container form input[type='password'], .container form input[type='number'], .container form textarea, .container form select {
+	
+	width: 50px;
+}
+
+#apply-form {
+	width: 100%;
+
+}
+
+}
